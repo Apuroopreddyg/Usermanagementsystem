@@ -1,0 +1,49 @@
+.navbar {
+  background: #333;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #ffd700;
+}
+
+.userInfo {
+  margin-right: 1rem;
+}
+
+.button {
+  color: #333;
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.button:hover {
+  background: #ffd700;
+  color: #333;
+}
+
+.linkGap {
+  display: inline-block;
+  width: 1rem;
+} 
